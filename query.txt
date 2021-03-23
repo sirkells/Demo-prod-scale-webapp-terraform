@@ -1,0 +1,8 @@
+# run this query to connect to rds from bastion host
+mysql -h dfsc-database.c7zeost4bxuj.us-west-2.rds.amazonaws.com -u admin -p Supersecretpassword
+show databases;
+use magento;
+show tables;
+SELECT * FROM core_config_data;
+
+
